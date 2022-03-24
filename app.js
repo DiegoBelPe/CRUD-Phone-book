@@ -82,12 +82,12 @@ app.delete('/api/persons/:id',(req, res)=>{
 })
 
 //1.5: backend de la agenda telefónica
-/* app.post('/api/persons',(req, res)=>{
+ app.post('/api/persons',(req, res)=>{
   const id = Math.round(Math.random()*10000)
   const nuevaPersona = {...req.body, id}
   persons.push(nuevaPersona)
   res.status(201).json({Message: "Contacto agregado!"})
-}) */
+}) 
 
 //1.6: backend de la agenda telefónica
 

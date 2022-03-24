@@ -8,6 +8,7 @@ morgan.token('body', function(req, res) {
   console.log(req.body)
   return JSON.stringify(req.body);
 });
+
 app.use(morgan(':method :url :status :body - :response-time ms'))
 const port = 3001;
 
